@@ -68,7 +68,7 @@ export default function Home() {
              <h3 className="text-xl font-bold text-white mb-3">Rigorous Experimental Design</h3>
              <ul className="text-slate-300 space-y-2 list-disc list-inside">
                <li>Expertise in establishing complex 3D organoid models mimicking tumor microenvironments.</li>
-               <li>Proven track record of high-reproducibility assays (Flow cytometry, CRISPR perturbations) yielding definitive survival outcomes (>99.7% viability loss).</li>
+               <li>Proven track record of high-reproducibility assays (Flow cytometry, CRISPR perturbations) yielding definitive survival outcomes (&gt;99.7% viability loss).</li>
              </ul>
           </div>
 
