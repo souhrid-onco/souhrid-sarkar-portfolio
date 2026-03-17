@@ -194,7 +194,7 @@ export default function Home() {
                  <p className="text-cold-cyan text-sm">Awards: The International Leadership Award, The India Merit Award</p>
               </div>
               <p className="text-slate-300 text-sm mb-4">
-                 <strong>Master's Thesis:</strong> Understanding the Role of Autophagy in KRAS-Mutant Colorectal Cancer.
+                 <strong>Master&apos;s Thesis:</strong> Understanding the Role of Autophagy in KRAS-Mutant Colorectal Cancer.
               </p>
               <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-white/10">
                  <span className="text-xs bg-black/30 px-2 py-1 rounded text-slate-300 border border-white/5">Drug Discovery</span>
@@ -212,7 +212,7 @@ export default function Home() {
                  <p className="text-white font-medium">Grade: First Division</p>
               </div>
               <p className="text-slate-300 text-sm mb-4">
-                 <strong>Bachelor's Thesis:</strong> Folate functionalized nanomedicine use for tumour targeted drug delivery in breast cancer.
+                 <strong>Bachelor&apos;s Thesis:</strong> Folate functionalized nanomedicine use for tumour targeted drug delivery in breast cancer.
               </p>
               <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-white/10">
                  <span className="text-xs bg-black/30 px-2 py-1 rounded text-slate-300 border border-white/5">Molecular & Cell Biology</span>
@@ -316,7 +316,7 @@ export default function Home() {
               </div>
               <p className="text-slate-400 text-sm mb-3">Cell Biochemistry and Biophysics (Feb 2024) | 10.1007/s12013-024-01221-z</p>
               <p className="text-slate-300 text-sm italic border-l-2 border-slate-600 pl-4 py-1 leading-relaxed">
-                Examined the role of Extracellular Vesicles (EVs) in neurodegenerative diseases, identifying their potential as biomarkers and therapeutic targets for Alzheimer's and Parkinson's disease.
+                Examined the role of Extracellular Vesicles (EVs) in neurodegenerative diseases, identifying their potential as biomarkers and therapeutic targets for Alzheimer&apos;s and Parkinson&apos;s disease.
               </p>
             </div>
           </div>
