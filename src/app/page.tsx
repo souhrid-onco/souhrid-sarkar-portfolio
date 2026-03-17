@@ -33,15 +33,22 @@ export default function Home() {
              </a>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://scholar.google.com/citations?user=zjB56GEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-purple-500/50 hover:bg-purple-500/20 hover:border-purple-400 text-white px-8 py-3 rounded-full font-medium transition-all shadow-[0_0_15px_rgba(168,85,247,0.4)] flex items-center justify-center gap-2 backdrop-blur-sm">
-              <GraduationCap size={18} /> Google Scholar
+          <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+            <a href="https://scholar.google.com/citations?user=zjB56GEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-cold-cyan hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all duration-300 text-white font-medium group">
+              <GraduationCap size={20} className="text-cold-cyan group-hover:scale-110 transition-transform" />
+              <span>Google Scholar</span>
             </a>
-            <a href="https://linkedin.com/in/souhrid-sarkar" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-cold-cyan/50 hover:bg-cold-cyan/20 hover:border-cold-cyan text-white px-8 py-3 rounded-full font-medium transition-all shadow-[0_0_15px_rgba(6,182,212,0.4)] flex items-center justify-center gap-2 backdrop-blur-sm">
-              <ExternalLink size={18} /> LinkedIn
+            <a href="https://linkedin.com/in/souhrid-sarkar" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-blue-400 hover:shadow-[0_0_15px_rgba(96,165,250,0.3)] transition-all duration-300 text-white font-medium group">
+              <Linkedin size={20} className="text-blue-400 group-hover:scale-110 transition-transform" />
+              <span>LinkedIn</span>
             </a>
-            <a href="mailto:souhridsarkar.work@gmail.com" className="bg-cold-teal hover:bg-teal-500 text-white px-8 py-3 rounded-full font-medium transition-all shadow-[0_0_20px_rgba(20,184,166,0.6)] flex items-center justify-center gap-2">
-              <Mail size={18} /> Email Me
+            <a href="mailto:souhridsarkar.work@gmail.com" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-purple-400 hover:shadow-[0_0_15px_rgba(168,85,247,0.3)] transition-all duration-300 text-white font-medium group">
+              <Mail size={20} className="text-purple-400 group-hover:scale-110 transition-transform" />
+              <span>Email Me</span>
+            </a>
+            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-emerald-400 hover:shadow-[0_0_15px_rgba(52,211,153,0.3)] transition-all duration-300 text-white font-medium group">
+              <Download size={20} className="text-emerald-400 group-hover:scale-110 transition-transform" />
+              <span>Download CV</span>
             </a>
           </div>
         </div>
@@ -367,7 +374,7 @@ export default function Home() {
               <Microscope className="text-cold-cyan" size={24} /> Molecular Biology & Cell Culture
             </h3>
             <div className="flex flex-col gap-3 relative z-10">
-              {['CRISPR-Cas9 gene editing', 'qPCR & Western blot', 'Flow cytometry & Confocal microscopy', '2D/3D mammalian cell culture', 'Organoid culture (colorectal)'].map((skill, i) => (
+              {['CRISPR-Cas9 gene editing', 'qPCR & Western blot', 'Flow cytometry & Confocal microscopy', 'DNA/RNA Isolation', '2D/3D mammalian cell culture', 'Organoid culture (colorectal)'].map((skill, i) => (
                 <div key={i} className={`px-4 py-2 rounded bg-cold-cyan/5 border border-cold-cyan/20 text-cold-cyan text-sm font-medium hover:bg-cold-cyan hover:text-white transition-all shadow-[0_2px_10px_rgba(0,0,0,0.2)]`}
                      style={{ animation: `float ${2.5 + i%2}s ease-in-out infinite`, animationDelay: `${i * 0.2}s` }}>
                   {skill}
