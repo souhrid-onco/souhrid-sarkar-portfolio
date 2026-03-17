@@ -113,7 +113,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-white mb-1">Graduate Research Assistant</h3>
                 <h4 className="text-slate-400 mb-4 font-medium uppercase tracking-wider text-sm">CRUK, Scotland Institute</h4>
                 <ul className="list-disc list-outside ml-4 text-slate-300 space-y-2">
-                  <li>Ran combination drug screens on KRASG12CPN and KRASG12DPN colorectal cancer organoids, demonstrating {">"}99.7% viability loss in G12C models with Afatinib-based regimens.</li>
+                  <li>Ran combination drug screens on KRASG12CPN and KRASG12DPN colorectal cancer organoids, demonstrating &gt;99.7% viability loss in G12C models with Afatinib-based regimens.</li>
                   <li>Profiled stemness-associated and stress-response markers using confocal microscopy, flow cytometry, and Western blotting.</li>
                   <li>Contributed to in vivo research pipelines by assisting with immunohistochemistry, immunofluorescence, and murine dissection.</li>
                   <li>Independently prepared qPCR workflows on treated organoids, integrating transcriptomic and phenotypic readouts.</li>
@@ -132,7 +132,7 @@ export default function Home() {
                 <h4 className="text-slate-400 mb-4 font-medium uppercase tracking-wider text-sm">Medical College and Hospital, Kolkata</h4>
                 <ul className="list-disc list-outside ml-4 text-slate-300 space-y-2">
                   <li>Processed and analysed 200+ paediatric cancer plasma samples to validate circulating protein and miRNA biomarkers for treatment-response prediction.</li>
-                  <li>Performed ELISA, HPLC, and flow cytometry assays with {">"}95% reproducibility.</li>
+                  <li>Performed ELISA, HPLC, and flow cytometry assays with &gt;95% reproducibility.</li>
                   <li>Integrated assay results with patient clinical data to identify biomarker thresholds with potential 80% predictive accuracy.</li>
                   <li>Performed immunophenotyping using flow cytometry to characterize immune cell populations and leukemic subtypes.</li>
                 </ul>
@@ -168,7 +168,7 @@ export default function Home() {
                 <ul className="list-disc list-outside ml-4 text-slate-300 space-y-2">
                   <li>Built an RNA-seq analysis pipeline that improved pituitary adenoma subtype classification accuracy by 20%.</li>
                   <li>Identified molecular drivers of non-functional adenomas through pathway enrichment, informing potential drug repurposing.</li>
-                  <li>Simulated drug–target interactions via computational modelling, predicting three compounds with {">"}70% binding affinity.</li>
+                  <li>Simulated drug–target interactions via computational modelling, predicting three compounds with &gt;70% binding affinity.</li>
                 </ul>
               </div>
             </div>
