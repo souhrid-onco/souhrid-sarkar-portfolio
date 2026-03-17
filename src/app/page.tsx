@@ -1,6 +1,6 @@
 import CanvasBackground from "@/components/CanvasBackground";
 import IntroAnimation from "@/components/IntroAnimation";
-import { Mail, ArrowRight, ExternalLink, GraduationCap, Microscope, Award, BrainCircuit, Dna, FileText, Activity, ShieldCheck, Cpu } from "lucide-react";
+import { Mail, ArrowRight, ExternalLink, GraduationCap, Microscope, Award, BrainCircuit, Dna, FileText, Activity, ShieldCheck, Cpu, Linkedin, Download } from "lucide-react";
 
 export default function Home() {
   return (
