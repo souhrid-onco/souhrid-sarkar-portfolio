@@ -10,7 +10,7 @@ export default function Home() {
 
       {/* --- HERO SECTION: The Visionary Headline --- */}
       <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-20">
-        <div className="max-w-5xl mx-auto text-center z-10 glass-card relative">
+        <div className="max-w-5xl mx-auto text-center z-10 relative">
           <p className="text-cold-cyan font-outfit font-semibold tracking-widest uppercase mb-4 text-sm animate-pulse flex items-center justify-center gap-2">
             <Dna size={16} /> Molecular Biology & Precision Oncology
           </p>
