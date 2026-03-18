@@ -14,7 +14,7 @@ export default function Home() {
           <p className="text-cold-cyan font-outfit font-semibold tracking-widest uppercase mb-4 text-sm animate-pulse flex items-center justify-center gap-2">
             <Dna size={16} /> Molecular Biology & Precision Oncology
           </p>
-          <h1 className="text-5xl md:text-7xl font-bold font-outfit text-white mb-6 leading-tight flex flex-col items-center">
+          <h1 className="text-4xl md:text-5xl font-bold font-outfit text-white mb-6 leading-tight flex flex-col items-center">
             Bridging Wet-Lab Precision and 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cold-cyan via-cold-teal to-purple-400 mt-2">
               Dry-Lab Analytics for Translational Cancer Research.
@@ -33,7 +33,15 @@ export default function Home() {
              </a>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+          {/* "Actively Seeking" Badge */}
+          <div className="flex justify-center mb-8">
+            <span className="inline-flex items-center text-center gap-2 px-4 py-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-300 text-sm font-medium shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse flex-shrink-0"></span>
+               Actively seeking Fall 2026 phd oppurtunity or research assistant positions
+            </span>
+          </div>
+
+          <div className="flex flex-wrap justify-center items-center gap-4 w-full">
             <a href="https://scholar.google.com/citations?user=zjB56GEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-cold-cyan hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all duration-300 text-white font-medium group">
               <GraduationCap size={20} className="text-cold-cyan group-hover:scale-110 transition-transform" />
               <span>Google Scholar</span>
@@ -46,11 +54,28 @@ export default function Home() {
               <Mail size={20} className="text-purple-400 group-hover:scale-110 transition-transform" />
               <span>Email Me</span>
             </a>
-            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-emerald-400 hover:shadow-[0_0_15px_rgba(52,211,153,0.3)] transition-all duration-300 text-white font-medium group">
+            <a href="/cv.pdf" download="Souhrid_Sarkar_CV.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-emerald-400 hover:shadow-[0_0_15px_rgba(52,211,153,0.3)] transition-all duration-300 text-white font-medium group">
               <Download size={20} className="text-emerald-400 group-hover:scale-110 transition-transform" />
               <span>Download CV</span>
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* --- ABOUT ME SECTION --- */}
+      <section id="aboutme" className="py-24 px-6 max-w-4xl mx-auto relative z-10 text-center">
+        <h2 className="text-3xl md:text-4xl font-outfit font-bold mb-8 flex items-center justify-center gap-4 group">
+          <span className="w-12 h-px bg-cold-cyan group-hover:w-24 transition-all duration-300"></span>
+          About Me
+          <span className="w-12 h-px bg-cold-cyan group-hover:w-24 transition-all duration-300"></span>
+        </h2>
+        <div className="glass-card hover:-translate-y-1 transition-transform duration-300 text-left">
+          <p className="text-slate-300 text-lg leading-relaxed font-inter mb-4">
+            I am Souhrid, a cancer biology researcher driven by a singular mission: to translate complex molecular insights into life-saving precision therapies. My academic journey, culminating in an MSc with Distinction from the University of Glasgow, has been defined by a fascination with tumor cell plasticity and the mechanisms cancers use to evade the immune system.
+          </p>
+          <p className="text-slate-300 text-lg leading-relaxed font-inter">
+            I bridge the gap between traditional wet-lab precision and modern dry-lab scale. My technical foundation is built on engineering CRISPR/Cas9-edited 3D organoid models to study therapeutic resistance, where I’ve successfully demonstrated over 99.7% viability loss in KRAS-mutant colorectal cancer models. Complementing this, I develop computational pipelines to harmonize multi-omics datasets and identify digital biomarkers, recently achieving an AUC of 0.85 in predictive disease modeling. Recognized with the International Leadership and Graduate Skills Award from University of Glasgow, I approach research with a commitment to rigor and reproducibility. My goal is to leverage this unique 'hybrid' skillset in a Fall 2026 PhD program, where I can lead innovative research into the next generation of biomarker-driven oncology.
+          </p>
         </div>
       </section>
 
